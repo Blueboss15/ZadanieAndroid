@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="jakascompany.myapplication.DisplayMessageActivity"
+    android:background="@color/Black"
+    android:weightSum="1"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView05"
+        android:layout_width="wrap_content"
+        android:layout_height="26dp"
+        android:layout_marginLeft="12dp"
+        android:textColor="@color/White"
+        android:text="@string/Author"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView07"
+        android:layout_marginTop="11dp" />
+    <TextView
+        android:id="@+id/textView06"
+        android:layout_width="wrap_content"
+        android:layout_height="26dp"
+        android:layout_marginLeft="12dp"
+        android:textColor="@color/DarkBlue"
+        android:text="@string/Name"
+        android:layout_below="@+id/textView05"
+        android:layout_alignStart="@+id/textView07" />
+
+    <TextView
+        android:id="@+id/textView07"
+        android:layout_width="match_parent"
+        android:layout_height="26dp"
+        android:layout_marginLeft="12dp"
+        android:text="@string/Copyright"
+        android:textColor="@color/White"
+        android:layout_below="@+id/textView06"
+        android:layout_toStartOf="@+id/imageView" />
+
+    <ImageButton
+        android:contentDescription="@string/tachanka"
+        android:id="@+id/imageView"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        android:visibility="visible"
+        app:srcCompat="@drawable/tachanka" />
+
+</RelativeLayout>

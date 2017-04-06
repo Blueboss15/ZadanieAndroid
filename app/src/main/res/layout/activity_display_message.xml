@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="jakascompany.myapplication.DisplayMessageActivity"
+    android:background="@color/Black"
+    android:weightSum="1"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView06"
+        android:layout_width="379dp"
+        android:layout_height="26dp"
+        android:layout_marginLeft="12dp"
+        android:textColor="@color/White"
+        android:text="@string/Author" />
+    <TextView
+        android:id="@+id/textView07"
+        android:layout_width="379dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="12dp"
+        android:textColor="@color/DarkBlue"
+        android:text="@string/Name" />
+    <TextView
+        android:id="@+id/textView08"
+        android:layout_width="379dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="12dp"
+        android:textColor="@color/White"
+        android:text="@string/Copyright" />
+
+    <ImageButton
+        android:contentDescription="@string/tachanka"
+        android:id="@+id/imageView"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:visibility="visible"
+        app:srcCompat="@drawable/tachanka"
+        android:background="@null"/>
+
+</LinearLayout>

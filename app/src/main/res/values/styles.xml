@@ -1,0 +1,20 @@
+<resources>
+
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/DarkPink</item>
+        <item name="colorPrimaryDark">@color/Black</item>
+        <item name="colorAccent">@color/LightPink</item>
+        <item name="actionOverflowMenuStyle">@style/AppTheme.PopupMenu</item>
+        <item name="textAppearanceLargePopupMenu">@style/AppTheme.PopupMenu</item>
+        <item name="textAppearanceSmallPopupMenu">@style/AppTheme.PopupMenu</item>
+    </style>
+
+    <style name="AppTheme.PopupMenu" parent="@android:style/Widget.PopupMenu">
+        <item name="android:popupBackground">@color/Black</item>
+        <item name="android:textColor">@color/White</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+
+</resources>

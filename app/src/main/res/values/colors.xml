@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="DarkPink">#E91E63</color>
+    <color name="Black">#000000</color>
+    <color name="LightPink">#FF4081</color>
+    <color name="Blue">#42A5F5</color>
+    <color name="DarkBlue">#2196F3</color>
+    <color name="Green">#1DE9B6</color>
+    <color name="Orange">#FF9800</color>
+    <color name="Red">#D50000</color>
+    <color name="White">#FFFFFF</color>
+    <color name="ButtonPink">#D81B60</color>
+    <color name="LightRed">#F44336</color>
+    <color name="Brown">#8D6E63</color>
+</resources>

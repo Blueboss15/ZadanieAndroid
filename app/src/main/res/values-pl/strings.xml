@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Policz BMI</string>
+    <string name="button_BMI">Policz BMI</string>
+    <string name="button_switch">Jednostki standardowe</string>
+    <string name="button_switch_changed">Jednostki anglosaskie</string>
+    <string name="Text01">m</string>
+    <string name="Text11">cale</string>
+    <string name="Text02"> </string>
+    <string name="Text03"> </string>
+    <string name="Text04">kg</string>
+    <string name="Text14">funty</string>
+    <string name="Edit01Hint"><i>Waga</i></string>
+    <string name="Edit02Hint"><i>Wzrost</i></string>
+    <string name="OK">OK</string>
+    <string name="ErrorMessage">Dane są nieprawidłowe. Spróbuj ponownie.</string>
+    <string name="showBMI">Twoje BMI:</string>
+    <string name="EmptyFields">Pola nie mogą być puste. Wprowadz liczby.</string>
+    <string name="Empty" />
+    <string name="Author">Autor Aplikacji:</string>
+    <string name="Name">Sylwester Olszewski</string>
+    <string name="Copyright">2017 Wszystkie prawa zastrzeżone</string>
+    <string name="button_author">O autorze</string>
+    <string name="button_save">Zapisz</string>
+    <string name="button_share">Udostępnij</string>
+    <string name="tachanka">TACHANKA</string>
+    <string name="DataSaved">Zapis powiódł się!</string>
+    <string name="StringBmi">Moje BMI:</string>
+</resources>

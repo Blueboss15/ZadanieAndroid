@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Count BMI</string>
+    <string name="button_BMI">Count BMI</string>
+    <string name="button_switch">Standard Units</string>
+    <string name="button_switch_changed">English Units</string>
+    <string name="Text01">m</string>
+    <string name="Text11">in</string>
+    <string name="Text02"> </string>
+    <string name="Text03"> </string>
+    <string name="Text04">kg</string>
+    <string name="Text14">lb</string>
+    <string name="Edit01Hint"><i>Your weight</i></string>
+    <string name="Edit02Hint"><i>Your height</i></string>
+    <string name="OK">OK</string>
+    <string name="ErrorMessage">Please enter correct data.</string>
+    <string name="showBMI">Your BMI:</string>
+    <string name="EmptyFields">Fields cannot be empty. Numbers required.</string>
+    <string name="Empty" />
+    <string name="Author">Made by:</string>
+    <string name="Name">Sylwester Olszewski</string>
+    <string name="Copyright">2017 All rights reserved</string>
+    <string name="button_author">Credits</string>
+    <string name="button_save">Save</string>
+    <string name="button_share">Share</string>
+    <string name="tachanka">TACHANKA</string>
+    <string name="DataSaved">Data saved successfully!</string>
+    <string name="StringBmi">My BMI:</string>
+</resources>
